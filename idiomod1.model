@@ -1,0 +1,120 @@
+GRT_MLP_FILE_V2.0
+Trained: 1
+UseScaling: 1
+NumInputDimensions: 8
+NumOutputDimensions: 2
+NumTrainingIterationsToConverge: 0
+MinNumEpochs: 150
+MaxNumEpochs: 200
+ValidationSetSize: 20
+LearningRate: 0.05
+MinChange: 1e-05
+UseValidationSet: 1
+RandomiseTrainingOrder: 0
+InputVectorRanges: 
+0.0237529	0.212759
+0.0133858	0.145226
+0.0287913	0.123369
+0.0191259	0.385356
+0.0185332	0.625301
+0.0410809	0.388736
+0.0186167	0.175672
+0.0378772	0.297695
+OutputVectorRanges: 
+0	127
+0	127
+NumInputNeurons: 8
+NumHiddenNeurons: 3
+NumOutputNeurons: 2
+InputLayerActivationFunction: BIPOLAR_SIGMOID
+HiddenLayerActivationFunction: BIPOLAR_SIGMOID
+OutputLayerActivationFunction: BIPOLAR_SIGMOID
+NumRandomTrainingIterations: 10
+Momentum: 0.5
+Gamma: 2
+ClassificationMode: 0
+UseNullRejection: 1
+RejectionThreshold: 0
+InputLayer: 
+InputNeuron: 1
+NumInputs: 1
+Bias: 0
+Gamma: 2
+Weights: 
+1	
+InputNeuron: 2
+NumInputs: 1
+Bias: 0
+Gamma: 2
+Weights: 
+1	
+InputNeuron: 3
+NumInputs: 1
+Bias: 0
+Gamma: 2
+Weights: 
+1	
+InputNeuron: 4
+NumInputs: 1
+Bias: 0
+Gamma: 2
+Weights: 
+1	
+InputNeuron: 5
+NumInputs: 1
+Bias: 0
+Gamma: 2
+Weights: 
+1	
+InputNeuron: 6
+NumInputs: 1
+Bias: 0
+Gamma: 2
+Weights: 
+1	
+InputNeuron: 7
+NumInputs: 1
+Bias: 0
+Gamma: 2
+Weights: 
+1	
+InputNeuron: 8
+NumInputs: 1
+Bias: 0
+Gamma: 2
+Weights: 
+1	
+
+HiddenLayer: 
+HiddenNeuron: 1
+NumInputs: 8
+Bias: 0.195844
+Gamma: 2
+Weights: 
+1.13012	5.41963	-1.09107	2.84005	-1.55433	1.09175	0.340393	-0.95755	
+HiddenNeuron: 2
+NumInputs: 8
+Bias: -0.0422921
+Gamma: 2
+Weights: 
+-0.481379	-0.376001	-0.187135	-0.620543	0.933956	-0.280337	-0.241831	0.266181	
+HiddenNeuron: 3
+NumInputs: 8
+Bias: 0.932745
+Gamma: 2
+Weights: 
+-2.1751	0.662616	0.272957	0.314669	-8.94443	-2.35332	0.535249	0.17897	
+
+OutputLayer: 
+OutputNeuron: 1
+NumInputs: 3
+Bias: 2.41957
+Gamma: 2
+Weights: 
+0.031572	0.0221785	2.44629	
+OutputNeuron: 2
+NumInputs: 3
+Bias: 1.84936
+Gamma: 2
+Weights: 
+-1.99832	-0.243967	-0.023027	
