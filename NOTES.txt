@@ -1,0 +1,61 @@
+
+ACTION - MAPPING - MACHINE LEARNING
+
+[MAPPING 1]
+Left Arm:
+
+–Wave in to Wave out: REGRESSION w EMG
+
+–Guitar-playing-like Left to Right motion: REGRESSION w QUAT
+
+–Quantity of motion: CLASSIFICATION (2 or 3 classes)
+
+
+
+Right Arm:
+
+–Fisting: REGRESSION w EMG
+
+-Guitar-playing-like "excitation" motion: REGRESSION w QUAT
+
+–Quantity of motion: CLASSIFICATION (2 or 3 classes)
+
+
+
+Vocals / Audio in:
+
+–Low to High: REGRESSION w MFCC
+
+–Soft to Loud: REGRESSION w MFCC
+
+
+[MAPPING2]
+––Almost like a miming having a ball and then stretching it etc..
+
+
+*** save wekinator projz at </Users/cagrierdem/Wekinator/2MYO/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
